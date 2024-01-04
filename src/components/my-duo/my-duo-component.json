@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_my_duo_my_duo_components",
+  "info": {
+    "displayName": "my_duo_component",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

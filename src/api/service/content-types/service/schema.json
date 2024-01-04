@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "service_title": {
+      "type": "string",
+      "required": true
+    },
+    "service_description": {
+      "type": "text"
+    },
+    "second_portion_title": {
+      "type": "string"
+    },
+    "second_portion_description": {
+      "type": "string"
+    },
+    "second_portion_image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "service_process": {
+      "type": "component",
+      "repeatable": true,
+      "component": "my-duo.my-duo-component"
+    },
+    "why_hive": {
+      "type": "component",
+      "repeatable": true,
+      "component": "my-duo.my-duo-component"
+    }
+  }
+}
